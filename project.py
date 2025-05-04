@@ -9,7 +9,7 @@ df = pd.read_csv("ilidata.csv")
 
 
 st.title("Ilodigwe ILI Surveillance Visualization")
-st.markdown("This app displays influenza illness trends by state and models ILI percentages usin exponential distribution.")
+st.markdown("My app displays influenza illness trends by state and models ILI percentages usin exponential distribution.")
 
 states = df['state'].dropna().unique()
 states.sort()
