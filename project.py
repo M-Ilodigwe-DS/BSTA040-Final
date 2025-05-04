@@ -54,7 +54,7 @@ Interpretations of visualizations:
     To analyze the statistical distribution of ILI observations, we overlay a fitted exponential distribution (`This is under the assumption the values are drawn from the Exponential distribution.`). 
     The exponential model is based on the Law of Large Numbers, which suggests that the avg of many independent ILI values will approximate the expected value or mean. 
     By estimating the rate parameter lambda as the reciprocal of the sample mean, we generate a curve that approximates the distribution of observed ILI values. 
-    Our visualization helps us assess any potential patterns in the occurrence of flu illness over time.
+    This visualization helps us as students or public health officials later on in life assess any potential patterns in the occurrence of flu illness over time.
  
 
 
