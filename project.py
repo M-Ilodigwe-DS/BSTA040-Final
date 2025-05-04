@@ -8,7 +8,7 @@ from scipy.stats import expon
 df = pd.read_csv("ilidata.csv")
 
 
-st.title("ILI Surveillance Visualization")
+st.title("Ilodigwe ILI Surveillance Visualization")
 st.markdown("This app displays influenza illness trends by state and models ILI percentages usin exponential distribution.")
 
 states = df['state'].dropna().unique()
